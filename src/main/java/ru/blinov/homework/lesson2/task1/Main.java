@@ -49,7 +49,7 @@ public class Main {
             new Person(5, "Amelia"),
             new Person(6, "Amelia"),
             new Person(7, "Amelia"),
-            new Person(8, "Amelia"),
+            new Person(8, "Amelia")
     };
 
     public static void main(String[] args) {
@@ -59,7 +59,12 @@ public class Main {
 
         Person[] people = RAW_DATA;
 
-        for (Person person : people) {
+        Predicate<Person> predicate = person ->
+                Objects.nonNull(person) && Objects.nonNull(person.getName());
+
+        List<Person> peopleFiltered = Arrays.stream(people).filter(predicate).toList();
+
+        for (Person person : peopleFiltered) {
             System.out.println(person.id + " - " + person.name);
         }
 
