@@ -1,16 +1,17 @@
-# Ylab University Core
-## Homework
-### Lesson 1
+# Ylab University - Java Core
+
+## Lesson 1
 1) Task 1.\
-   Заполните двумерный массив случайными числами и выведите максимальное, минимальное и среднее значение.
+   Fill a 2D array with random numbers and find max, min and average value.
 2) Task 2.\
-   Отсортируйте массив [5, 6, 3, 2, 5, 1, 4, 9].
-* Задача со звездочкой: написать простые тесты.
-* Задача со звездочкой: учесть дубликаты в массиве 2 задачи\
-(Надо сделать так, чтобы алгоритм работал правильно с дублями).
-### Lesson 2
+   Sort the array: [5, 6, 3, 2, 5, 1, 4, 9].
+* Extra task: write simple tests.
+* Extra task: take into account duplicates in the array of task 2.\
+(An algorithm must work correctly with duplicates).
+
+## Lesson 2
 1) Task 1.\
-   Убрать дубликаты, отсортировать по идентификатору, сгруппировать по имени.\
+   Remove duplicates, sort by ID, group by name.\
    Input (raw data):
    ```
    0 - Harry
@@ -38,7 +39,7 @@
    Value:1
    ```
 2) Task 2.\
-   Вывести пару именно в скобках, которые дают сумму - 10.\
+   Print a pair (in brackets) from the array whose sum is equal to the given number.\
    Input:
    ```
    [3, 4, 2, 7]
@@ -49,7 +50,7 @@
    [3, 7]
    ```
 3) Task 3.\
-   Реализовать функцию нечеткого поиска fuzzySearch("String", "String").\
+   Implement a fuzzy search function: fuzzySearch("String", "String").\
    Example 1.\
    Input:
    ```
